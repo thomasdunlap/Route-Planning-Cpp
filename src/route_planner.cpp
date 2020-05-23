@@ -45,8 +45,6 @@ void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
 	open_list.push_back(n);
 	
 	n->visited = true;
-	
-	std::cout << n << "\n";
     }
     
 }
